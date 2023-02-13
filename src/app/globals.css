@@ -1,0 +1,39 @@
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+   
+   --color-bg-primary: #2d3748;
+   --color-bg-seccondary: #283141;
+   --color-text-primary: #dbdbdb;
+   --color-text-secondary: #e2e8f0;
+   --color-text-accent: #81e6d9;
+   --color-bg-button: #81e6d9;
+   --color-bg-input: #81e6d9;
+
+}
+
+.light {
+  --color-bg-primary: #ffffff;
+   --color-bg-seccondary: #edf2f7;
+   --color-text-primary: #2d3748;
+   --color-text-secondary: #4a5568;
+   --color-text-accent: #2b6cb0;
+   --color-bg-button: #edf2f7;
+   --color-bg-input: #2b6cb0;
+}
+
+/* :root {
+  @apply bg-primary text-primary
+}
+.rounded-div {
+  @apply border border-secondary rounded-r-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto
+} */
